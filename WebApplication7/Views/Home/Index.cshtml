@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<style>
+    .bg-blue {
+        background-color: #007bff; /* Màu xanh nước biển */
+    }
+</style>
+
+<div class="container my-5">
+    <div class="jumbotron text-center bg-blue text-white rounded">
+        <h1 class="display-4">Chào mừng đến với Hệ thống Tìm kiếm Đội nhóm!</h1>
+        <p class="lead">Dễ dàng tìm và tham gia vào các nhóm học tập hoặc dự án phù hợp.</p>
+        <hr class="my-4 bg-light">
+        <p>Hỗ trợ hành trình học tập của bạn bằng cách kết nối với các sinh viên khác và xây dựng đội nhóm cộng tác.</p>
+        <a class="btn btn-outline-light btn-lg mr-2" href="/Teams/Find" role="button">Tìm đội nhóm</a>
+        <a class="btn btn-outline-light btn-lg" href="/Teams/Create" role="button">Tạo đội nhóm</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Tham gia đội nhóm</h5>
+                    <p class="card-text">Duyệt và tham gia vào các đội nhóm có mục tiêu học tập giống bạn.</p>
+                    <a href="/Teams/Find" class="btn btn-primary">Khám phá đội nhóm</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Tạo đội nhóm mới</h5>
+                    <p class="card-text">Không tìm thấy đội nhóm phù hợp? Hãy tạo đội nhóm của riêng bạn và mời người khác tham gia!</p>
+                    <a href="/Teams/Create" class="btn btn-primary">Bắt đầu tạo nhóm</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Theo dõi dự án</h5>
+                    <p class="card-text">Quản lý và theo dõi tiến độ dự án của đội nhóm một cách hiệu quả.</p>
+                    <a href="/Projects" class="btn btn-primary">Vào trang Dự án</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
